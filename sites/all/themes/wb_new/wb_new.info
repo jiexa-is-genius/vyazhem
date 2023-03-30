@@ -1,0 +1,32 @@
+name = wb_new
+description = Дизайн для магазина ( www.knitshop.ru )
+package = Core
+version = VERSION
+core = 7.x
+
+scripts[] = js/jquery.js
+scripts[] = js/jquery-ui.js
+scripts[] = js/jquery-confirm.min.js
+scripts[] = js/mask.js
+scripts[] = js/general.js
+scripts[] = js/card.js
+scripts[] = js/rubber.js
+
+stylesheets[all][] = css/jquery-ui.css
+stylesheets[all][] = css/jquery-confirm.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/rubber.css
+
+regions[header_menu] = Header menu
+regions[main_menu] = Main menu
+regions[header_search] = Header search
+regions[card] = Card
+regions[left_block] = Left block
+regions[content] = Content
+
+settings[shortcut_module_link] = 0
+
+version = "7.1"
+project = "drupal"
+datestamp = "1335997555"
+

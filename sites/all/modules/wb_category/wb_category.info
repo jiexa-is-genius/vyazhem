@@ -1,0 +1,7 @@
+name = wb_category
+description = Работа с категориями товаров
+core = 7.x
+
+version = "7.x-1.0"
+core = "7.x"
+package = W-BUILD

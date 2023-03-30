@@ -1,0 +1,7 @@
+name = wb_export
+description = Экспорт данных сайта в XML
+core = 7.x
+
+version = "7.x-1.0"
+core = "7.x"
+package = W-BUILD

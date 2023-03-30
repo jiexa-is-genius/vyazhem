@@ -1,0 +1,28 @@
+name = wb
+description = Дизайн для магазина
+package = Core
+version = VERSION
+core = 7.x
+
+scripts[] = js/jquery.js
+scripts[] = js/jquery-confirm.min.js
+scripts[] = js/mask.js
+scripts[] = js/general.js
+scripts[] = js/card.js
+
+stylesheets[all][] = css/jquery-confirm.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/rubber.css
+
+regions[card] = Card
+regions[main_menu] = Main menu
+regions[left_block] = Left block
+regions[slider] = Slider block
+regions[content] = Content
+
+settings[shortcut_module_link] = 0
+
+version = "7.1"
+project = "drupal"
+datestamp = "1335997555"
+

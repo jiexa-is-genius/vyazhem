@@ -1,0 +1,7 @@
+.field-name-field-colors .draggable .description { display: none; }
+#plup-list li select.form-select {
+	width: 90px;
+    height: auto;
+    top: -25px;
+    position: relative;
+}

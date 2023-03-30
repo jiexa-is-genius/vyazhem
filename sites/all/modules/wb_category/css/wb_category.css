@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.term-reference-tree-button { cursor: pointer; }
+.wb-category-item input, .wb-category-item label { cursor: pointer; }
+
+.field-name-field-size > .form-item > label { 
+	cursor: pointer;
+	background-image: url(../img/plus.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}
+
+.field-name-field-size .form-checkboxes { display: none; }
+.field-name-field-size-open .form-checkboxes { display: block; }
+.field-name-field-size-open > .form-item > label { background-image: url(../img/minus.png); }
